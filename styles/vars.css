@@ -1,0 +1,13 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --light-black: #232121;
+    --red: #EE0000;
+    --grey: rgba(45, 45, 45, 0.95);
+    --light-grey: #9F9F9F;
+    --medium-grey: rgba(91, 91, 91, 0.96);
+    --dark-grey: #484746;
+    --gap: 25px;
+    --scale: scale(1.02);
+    --transition: 0.15s ease-in;
+}

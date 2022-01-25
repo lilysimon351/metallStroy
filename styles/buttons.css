@@ -1,0 +1,75 @@
+@import url(vars.css);
+.btn {
+    display: block;
+    text-decoration: none;
+    text-transform: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 110%;
+    font-weight: 600;
+    color: var(--white);
+    width: 100%;
+    transition: var(--transition);
+}
+
+.btn--norm {
+    max-width: 370px;
+    border-radius: 5px;
+    background: rgba(238, 0, 0, 0.9);
+    color: var(--white);
+    padding: 10px;
+}
+
+.btn--small {
+    max-width: 330px;
+    border-radius: 5px;
+    background: rgba(238, 0, 0, 0.8);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    color: var(--white);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn--white {
+    color: var(--light-black);
+    background: rgba(var(--white), 0.8);
+    box-shadow: 0px 0px 10px rgba(var(--black), 0.05);
+    border-radius: 10px;
+}
+
+.btn--white:hover {
+    box-shadow: 0px 0px 10px rgba(var(--black), 0.15);
+}
+
+.btn--red {
+    width: unset;
+    background: var(--red);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.grad-btn {
+    padding: 20px 30px;
+    background: linear-gradient(0deg, rgba(186, 27, 17, 0.8) 0%, rgba(216, 19, 0, 0.8) 100%);
+    box-shadow: 0px 5px 10px rgba(var(--black), 0.1), inset 0px 5px 10px rgba(var(--red), 0.05);
+    border-radius: 10px;
+    opacity: 0.9;
+    backdrop-filter: blur(10px);
+    font-weight: bold;
+}
+
+.grad-btn:hover {
+    text-decoration: underline;
+}
+
+.grad-btn--grey {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px 20px;
+}
+
+.btn:hover,
+.btn--scale:hover {
+    transform: scale(1.04)
+}

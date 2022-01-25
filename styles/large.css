@@ -1,0 +1,94 @@
+.grad-btn {
+    font-size: 25px;
+}
+
+
+/* header */
+
+.header .nav-wr {
+    max-width: 1340px;
+}
+
+.nav {
+    width: unset;
+    order: -3;
+}
+
+.call,
+.social {
+    margin: 0 10px;
+}
+
+
+/* intro */
+
+.intro {
+    height: calc(100vh - 102px);
+}
+
+.main-title {
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.intro__desc {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.intro__item {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.bigger {
+    font-size: 40px;
+}
+
+
+/* about */
+
+.about__quot {
+    font-size: 25px;
+}
+
+.about__ques {
+    position: absolute;
+    bottom: var(--gap);
+    left: 100px;
+}
+
+
+/* feedback */
+
+.feedback__inner {
+    flex-wrap: nowrap;
+}
+
+.feedback__form {
+    max-width: 570px;
+    width: 100%;
+}
+
+
+/* footer */
+
+.footer__nav .nav__menu {
+    display: block;
+}
+
+.footer__nav .nav__menu>li {
+    margin: 2px 20px;
+}
+
+.footer__nav .nav__menu>li>a {
+    padding: 5px;
+}
+
+.footer .nav-wr {
+    align-items: flex-start;
+}
+
+.footer .nav__submenu {
+    top: calc(100% + 5px);
+}

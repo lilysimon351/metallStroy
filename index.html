@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Металл Строй | Цех Металлоконструкций </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles/slider.css">
+    <link rel="stylesheet" href="styles/mobile.css" media="screen and (min-width:476px)">
+    <link rel="stylesheet" href="styles/tablet.css" media="screen and (min-width:768px)">
+    <link rel="stylesheet" href="styles/large.css" media="screen and (min-width:1300px)">
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav-wr">
+            <a href="/" class="logo">
+                <img src="pics/logo.png" alt="Металл Строй">
+                <p class="descr">
+                    <span>Металл Строй</span>
+                    <small>Цех Металлоконструкций </small>
+                </p>
+            </a>
+            <div class="social">
+                <div class="social__box">
+                    <a href="/" class="social__link social__link--tg">Telegram</a>
+                    <a href="/" class="social__link social__link--insta">Instagram</a>
+                    <a href="/" class="social__link social__link--wa">WhatsApp</a>
+                </div>
+                <a class="social__ques open-popup" data-popup="popup__connect">Задать вопрос</a>
+            </div>
+            <div class="call">
+                <a class="call_back open-popup" data-popup="popup__call"> Перезвоните мне</a>
+                <a href="tel:79869762890" class="call__tel">+7(986)976-28-90</a>
+            </div>
+            <button class="header__burger burger">
+                menu
+                <img src="pics/other/burger.png" alt="menu">
+            </button>
+            <nav class="header__nav nav">
+                <ul class="nav__menu">
+                    <li class="nav__item--has-children">
+                        <a>Виды изделий</a>
+                        <ul class="nav__submenu">
+                            <li><a href="">Кованые ворота</a></li>
+                            <li><a href="">Перила</a></li>
+                            <li><a href="">Откатные ворота</a></li>
+                            <li><a href="">Навесы</a></li>
+                            <li><a href="">Распашные ворота</a></li>
+                            <li><a href="">Беседки и террасы</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <li><a href="#about">О нас</a></li>
+                </ul>
+
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <!-- INTRO -->
+        <section class="intro">
+            <div class="container">
+                <h1 class="main-title">
+                    Производство и установка <br> Металлоизделий
+                </h1>
+                <p class="intro__desc">Для вашего дома в Краснодаре <br> c гарантией до 15 лет </p>
+                <ul class="intro__list">
+                    <li class="intro__item">Бесплатный замер</li>
+                    <li class="intro__item">Монтаж за 1 день</li>
+                    <li class="intro__item">Скидки до <span class="bigger">30%</span></li>
+                </ul>
+                <div class="intro__btns">
+                    <button class="intro__btn btn grad-btn open-popup" data-popup="popup__cost">Рассчитать стоимость</button>
+                    <button class="intro__btn btn grad-btn grad-btn--grey open-popup" data-popup="popup__call">Позвонить</button>
+                </div>
+            </div>
+            <a href="#kinds" class="intro__down">
+                down
+                <img src="pics/other/down.png" alt="scroll">
+            </a>
+        </section>
+        <!-- INTRO -->
+        <!-- KINDS -->
+        <section class="kind" id="kinds">
+            <div class="container">
+                <h2>Виды изделий</h2>
+                <div class="kind__list">
+                    <div class="kind__item">
+                        <div class="kind__img">
+                            <img src="pics/thumb/kovanye.jpg" alt="Кованые ворота">
+                        </div>
+                        <div class="kind__item-body">
+                            <h3 class="kind__title">
+                                Кованые ворота
+                                <br> <span class="light"> От 50000 за м2 </span>
+                            </h3>
+
+                            <div class="kind__adv">
+                                <span>Преимущества: </span>
+                                <p class="kind__desc">Художественная ковка удачно <br> вписываются в любой дизайн.</p>
+                            </div>
+                            <button class="kind__btn btn btn--small btn--white">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="kind__item">
+                        <div class="kind__img">
+                            <img src="pics/thumb/otkatnye.jpg" alt="Откатные ворота">
+                        </div>
+                        <div class="kind__item-body">
+                            <h3 class="kind__title">
+                                Откатные ворота
+
+                                <br> <span class="light"> От 40000 за м2 </span>
+                            </h3>
+
+                            <div class="kind__adv">
+                                <span>Преимущества: </span>
+                                <p class="kind__desc">Это невероятная экономия <br> пространства.</p>
+                            </div>
+                            <button class="kind__btn btn btn--small btn--white">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="kind__item">
+                        <div class="kind__img">
+                            <img src="pics/thumb/raspashnye.jpg" alt="Распашные ворота">
+                        </div>
+                        <div class="kind__item-body">
+                            <h3 class="kind__title">
+                                Распашные ворота
+
+                                <br> <span class="light">  От 25000р за м2 </span>
+                            </h3>
+
+                            <div class="kind__adv">
+                                <span>Преимущества: </span>
+                                <p class="kind__desc">Легкая эксплуатация в автоматическом <br> и ручном режимах.</p>
+                            </div>
+                            <button class="kind__btn btn btn--small btn--white">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="kind__item">
+                        <div class="kind__img">
+                            <img src="pics/thumb/perila.jpg" alt="Перила">
+                        </div>
+                        <div class="kind__item-body">
+                            <h3 class="kind__title">
+                                Перила
+                                <br> <span class="light"> От 50000 за м2 </span>
+                            </h3>
+
+                            <div class="kind__adv">
+                                <span>Преимущества: </span>
+                                <p class="kind__desc">Художественная ковка удачно <br> вписываются в любой дизайн.</p>
+                            </div>
+                            <button class="kind__btn btn btn--small btn--white">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="kind__item">
+                        <div class="kind__img">
+                            <img src="pics/thumb/navesy.jpg" alt="Навесы">
+                        </div>
+                        <div class="kind__item-body">
+                            <h3 class="kind__title">
+                                Навесы
+                                <br> <span class="light"> От 50000 за м2 </span>
+                            </h3>
+
+                            <div class="kind__adv">
+                                <span>Преимущества: </span>
+                                <p class="kind__desc">Художественная ковка удачно <br> вписываются в любой дизайн.</p>
+                            </div>
+                            <button class="kind__btn btn btn--small btn--white">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="kind__item">
+                        <div class="kind__img">
+                            <img src="pics/thumb/besedka.jpg" alt="Террасы">
+                        </div>
+                        <div class="kind__item-body">
+                            <h3 class="kind__title">
+                                Террасы
+                                <br> <span class="light"> От 50000 за м2 </span>
+                            </h3>
+
+                            <div class="kind__adv">
+                                <span>Преимущества: </span>
+                                <p class="kind__desc">Художественная ковка удачно <br> вписываются в любой дизайн.</p>
+                            </div>
+                            <button class="kind__btn btn btn--small btn--white">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="kind__contact btn btn--norm open-popup" data-popup="popup__call">Свяжитесь со мной</button>
+            </div>
+        </section>
+        <!-- KINDS -->
+        <!-- ADVANTAGES -->
+        <section class="adv">
+            <div class="container">
+                <h2 class="adv__title title--white">Наши преимущества</h2>
+                <ul class="adv__list">
+                    <li class="adv__item">Личный <br> менеджер</li>
+                    <li class="adv__item">Изготовим любые <br> изделия из металла</li>
+                    <li class="adv__item">Делаем <br> на совесть</li>
+                    <li class="adv__item">Рассрочка платежа <br> без процентов</li>
+                    <li class="adv__item">Соблюдаем сроки</li>
+                    <li class="adv__item">Гарантия <br> до 2 лет</li>
+                    <li class="adv__item">Бесплатная <br> консультация</li>
+                </ul>
+            </div>
+        </section>
+        <!-- ADVANTAGES -->
+        <!-- WORKS -->
+        <section class="work">
+            <div class="container">
+                <h2 class="work__title title--bordered">Наши работы</h2>
+                <!-- Slider main container -->
+                <div class="swiper work__list work__slider">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide work__item">
+                            <div class="work__task">
+                                <div class="work__subtitle">Задача</div>
+                                <p class="work__text">Создание летней террассы <br> в Европейском стиле. <br> Упор на минималистичный дизайн.</p>
+
+                                <div class="work__subtitle">Название товара</div>
+                                <p class="work__text">Летняя террасса “Minimalistic”</p>
+                            </div>
+                            <div class="work__img">
+                                <img src="pics/works/work-1.jpg" alt="Летняя террасса “Minimalistic”">
+                            </div>
+
+                            <button class="work_calc btn btn--small  open-popup" data-popup="popup__cost">Рассчитать стоимость</button>
+                        </div>
+
+                        <div class="swiper-slide work__item">
+                            <div class="work__task">
+                                <div class="work__subtitle">Задача</div>
+                                <p class="work__text">Создание летней террассы <br> в Европейском стиле. <br> Упор на минималистичный дизайн.</p>
+
+                                <div class="work__subtitle">Название товара</div>
+                                <p class="work__text">Летняя террасса “Minimalistic”</p>
+                            </div>
+                            <div class="work__img">
+                                <img src="pics/works/work-1.jpg" alt="Летняя террасса “Minimalistic”">
+                            </div>
+
+                            <button class="work_calc btn btn--small  open-popup" data-popup="popup__cost">Рассчитать стоимость</button>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination work__pag"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev work__prev"></div>
+                    <div class="swiper-button-next work__next"></div>
+                </div>
+            </div>
+        </section>
+        <!-- WORKS -->
+        <!-- ABOUT -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="about__title title--bordered">О компании</h2>
+                <div class="about__top">
+                    <p class="about__desc">
+                        Компания "МеталлСтрой" была основана в 2007 году, мы прошли большой путь от маленького цеха на окраине города до 4х полноценных производств в 2х городах России.
+                    </p>
+                    <q class="about__quot quot">
+                        На нашем производстве установлено современное оборудование, благодаря которому мы стабильно и в срок выдаем высокое качество продукта.
+                    </q>
+                </div>
+
+                <ul class="about_adv__list">
+                    <li class="about_adv__item">Мы дорожим нашими клиентами и их временем, высокое качество сервиса наш приоритет.</li>
+                    <li class="about_adv__item">Для уверенности что она Вам точно подойдет - мы предоставляем бесплатную 3D - визуализацию перед началом работ.
+                    </li>
+                    <li class="about_adv__item">Выбрать подходящую продукцию вы можете на нашем сайте или в каталоге.</li>
+                    <li class="about_adv__item">Мы ценим ваше время - Опытная бригада монтажа установит для Вас конструкцию за 1 день!
+                    </li>
+                </ul>
+                <div class="about__img">
+                    <img src="pics/bg/about.jpg" alt="">
+                </div>
+                <div class="about__ques">
+                    <p>Вы всегда можете задать интересующие вас вопросы по телефону или написав нам. Наши менеджеры с удовольствием ответят на все ваши вопросы.</p>
+                    <button class="about__btn btn btn--small open-popup" data-popup="popup__connect">Связаться с представителем</button>
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT -->
+        <!-- REVIEWS -->
+        <section class="review" id="reviews">
+            <div class="container">
+                <h2 class="review__title title--bordered">Отзывы</h2>
+            </div>
+            <div class="review__box">
+                <!-- Slider main container -->
+                <div class="swiper review__slider">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide review__item">
+                            <img src="pics/reviews/review-1.jpg" alt="отзыв от Артура">
+                        </div>
+                        <div class="swiper-slide review__item">
+                            <img src="pics/reviews/review-1.jpg" alt="отзыв от Артура">
+                        </div>
+                        <div class="swiper-slide review__item">
+                            <img src="pics/reviews/review-1.jpg" alt="отзыв от Артура">
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination review__pag"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev review__prev"></div>
+                    <div class="swiper-button-next review__next"></div>
+                </div>
+                <div class="review__cover">
+                    <img src="pics/bg/review.jpg" alt="" class="review__cover-img">
+                </div>
+            </div>
+
+        </section>
+        <!-- REVIEWS -->
+        <!-- MAP -->
+        <section class="map">
+            <div class="container">
+                <h2 class="map__title">Изготовим любые изделия из метала
+                </h2>
+            </div>
+            <div class="map-wr">
+                <a href="tel:79869762890" class="map__tel btn btn--small">+7(986)976-28-90</a>
+                <div id="map__cont" style="width: 100%; height: 500px"></div>
+
+                <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+                <script type="text/javascript">
+                    ymaps.ready(init);
+
+                    function init() {
+                        var myMap = new ymaps.Map("map__cont", {
+                            center: [45.035470, 38.975313],
+                            zoom: 12,
+                            controls: []
+                        });
+
+                        var myGeoObjects = [];
+                        myGeoObjects = new ymaps.Placemark([45.035470, 38.975313], {
+                            balloonContentBody: false,
+                        }, {
+                            iconLayout: 'default#image',
+                            iconImageHref: 'pics/other/point.png',
+                            iconImageSize: [42, 50],
+                            iconImageOffset: [-25, -70]
+                        });
+
+                        var clusterer = new ymaps.Clusterer({
+                            clusterDisableClickZoom: false,
+                            clusterOpenBalloonOnClick: false,
+                        });
+
+                        clusterer.add(myGeoObjects);
+                        myMap.geoObjects.add(clusterer);
+                        myMap.behaviors.disable('scrollZoom');
+
+                    }
+                </script>
+            </div>
+        </section>
+        <!-- MAP -->
+        <!-- FEEDBACK -->
+        <section class="feedback">
+            <div class="container">
+                <div class="feedback__inner">
+                    <div class="feedback__video" data-src="8nsFqfpcVL4">
+                        <div class="feedback__video-cover"></div>
+                        <div class="feedback__video_play">
+                            <img src="pics/other/play.png" alt="играть">
+                        </div>
+                    </div>
+                    <form class="feedback__form form">
+                        <h3 class="form__title">Заполните форму</h3>
+                        <p class="form__subtitle">Мы перезвоним в ближайшее время</p>
+                        <div class="form__input-box">
+                            <div class="form__input-wr">
+                                <input type="text" placeholder="Иван Иванов" class="error-input">
+                            </div>
+                            <div class="form__input-wr">
+                                <input type="text" placeholder="Номер телефона">
+                            </div>
+                            <div class="form__input-wr">
+                                <input type="text" placeholder="Удобное время для звонка">
+                            </div>
+                        </div>
+                        <button type="submit" class="form__submit btn btn--red">Заказать звонок</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- FEEDBACK -->
+    </main>
+    <footer class="footer">
+        <div class="nav-wr">
+            <a href="/" class="logo">
+                <img src="pics/logo.png" alt="Металл Строй">
+                <p class="descr">
+                    <span>Металл Строй</span>
+                    <small>Цех Металлоконструкций </small>
+                </p>
+            </a>
+            <div class="social">
+                <div class="social__box">
+                    <a href="/" class="social__link social__link--tg">Telegram</a>
+                    <a href="/" class="social__link social__link--insta">Instagram</a>
+                    <a href="/" class="social__link social__link--wa">WhatsApp</a>
+                </div>
+                <a class="social__ques open-popup" data-popup="popup__connect">Задать вопрос</a>
+            </div>
+            <div class="call">
+                <a class="call_back open-popup" data-popup="popup__call"> Перезвоните мне</a>
+                <a href="tel:79869762890" class="call__tel">+7(986)976-28-90</a>
+            </div>
+            <button class="footer__burger burger">
+                menu
+                <img src="pics/other/burger.png" alt="menu">
+            </button>
+            <nav class="footer__nav nav">
+                <ul class="nav__menu">
+                    <li class="nav__item--has-children">
+                        <a>Виды изделий</a>
+                        <ul class="nav__submenu">
+                            <li><a href="">Кованые ворота</a></li>
+                            <li><a href="">Перила</a></li>
+                            <li><a href="">Откатные ворота</a></li>
+                            <li><a href="">Навесы</a></li>
+                            <li><a href="">Распашные ворота</a></li>
+                            <li><a href="">Беседки и террасы</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <li><a href="#about">О нас</a></li>
+                </ul>
+
+            </nav>
+        </div>
+        <div class="add-info">
+            <a href="mailto:metall.stroy2007@gmail.com" class="add-info__mail">Metall.stroy2007@gmail.com</a>
+            <a href="#" class="add-info__pol">Политика конфиденциальности</a>
+        </div>
+    </footer>
+
+    <!-- POPUPS -->
+    <div class="popup-overlay"></div>
+    <!-- POPUP CALL -->
+    <div class="popup popup__call">
+        <div class="popup__body">
+            <button class="popup__close">close</button>
+            <form class="form">
+                <h3 class="form__title">Заполните форму</h3>
+                <p class="form__subtitle">Мы скоро свяжемся с вами.</p>
+                <div class="form__input-box">
+                    <div class="form__input-wr">
+                        <input type="text" placeholder="Иван Иванов" class="error-input">
+                    </div>
+                    <div class="form__input-wr">
+                        <input type="text" placeholder="Номер телефона">
+                    </div>
+                    <div class="form__input-wr">
+                        <input type="text" placeholder="Удобное время для звонка">
+                    </div>
+                </div>
+                <button type="submit" class="form__submit btn btn--red">Заказать звонок</button>
+            </form>
+        </div>
+    </div>
+    <!-- POPUP CALL -->
+    <!-- POPUP CONNECT -->
+    <div class="popup popup__connect">
+        <div class="popup__body">
+            <button class="popup__close">close</button>
+            <form class="form">
+                <h3 class="form__title">Заполните форму</h3>
+                <p class="form__subtitle">Мы скоро свяжемся с вами.</p>
+                <div class="form__input-box">
+                    <div class="form__input-wr">
+                        <input type="text" placeholder="Иван Иванов" class="error-input">
+                    </div>
+                    <div class="form__input-wr">
+                        <input type="text" placeholder="Номер телефона">
+                    </div>
+                </div>
+                <button type="submit" class="form__submit btn btn--red">Свяжитесь со мной</button>
+            </form>
+        </div>
+    </div>
+    <!-- POPUP CONNECT -->
+    <!-- POPUP COST -->
+    <div class="popup popup__cost">
+        <div class="popup__body">
+            <button class="popup__close">close</button>
+            <form class="form">
+                <h3 class="form__title">Заполните форму</h3>
+                <p class="form__subtitle">Мы скоро свяжемся с вами.</p>
+                <div class="form__input-box">
+                    <div class="form__input-wr">
+                        <input type="text" placeholder="Иван Иванов" class="error-input">
+                    </div>
+                    <div class="form__input-wr">
+                        <input type="text" placeholder="Номер телефона">
+                    </div>
+                </div>
+                <button type="submit" class="form__submit btn btn--red">Рассчитать стоимость</button>
+            </form>
+        </div>
+    </div>
+    <!-- POPUP COST -->
+    <!-- POPUPS -->
+    <!-- slider -->
+    <script src="scripts/swiper-bundle.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <!-- slider -->
+</body>
+
+</html>
