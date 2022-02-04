@@ -32,6 +32,22 @@ const reviewSlider = new Swiper('.review__slider', {
     centeredSlides: true,
     effect: 'fade',
 });
+const gallerySlider = new Swiper('.gallery__slider', {
+    loop: true,
+
+    pagination: {
+        el: '.gallery__pag',
+        clickable: true
+    },
+
+    navigation: {
+        nextEl: '.gallery__next',
+        prevEl: '.gallery__prev',
+    },
+    slidesPerView: 1,
+    spaceBetween: 10,
+    centeredSlides: true,
+});
 
 // YT
 let videoCont = document.querySelector('.feedback__video');

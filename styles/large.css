@@ -1,5 +1,16 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .grad-btn {
     font-size: 25px;
+}
+
+.grad-shadow {
+    height: 55px;
 }
 
 
@@ -11,6 +22,8 @@
 
 .nav {
     width: unset;
+    -webkit-box-ordinal-group: -2;
+    -ms-flex-order: -3;
     order: -3;
 }
 
@@ -23,7 +36,7 @@
 /* intro */
 
 .intro {
-    height: calc(100vh - 102px);
+    min-height: calc(100vh - 102px);
 }
 
 .main-title {
@@ -62,6 +75,7 @@
 /* feedback */
 
 .feedback__inner {
+    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
 }
 
@@ -86,9 +100,48 @@
 }
 
 .footer .nav-wr {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
 }
 
 .footer .nav__submenu {
     top: calc(100% + 5px);
+}
+
+
+/* sec adv */
+
+.sec-adv {
+    padding: 140px 0 75px;
+}
+
+.sec-adv__title {
+    text-align: center;
+}
+
+.sec-adv__item {
+    margin: 0 25px;
+}
+
+
+/* steps */
+
+.step__list {
+    grid-gap: 150px;
+}
+
+.step__item:last-child {
+    text-align: left;
+    width: unset;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.step__item::after {
+    width: 42px;
+    height: 42px;
+    left: unset;
+    top: 25px;
+    right: -75px;
 }

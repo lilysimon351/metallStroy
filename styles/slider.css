@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 :root {
     --swiper-theme-color: #FFFFFF;
     --swiper-pagination-bullet-inactive-opacity: 0.6;
@@ -5,6 +12,7 @@
 
 .swiper-button-next,
 .swiper-button-prev {
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     border-radius: 50%;
 }
@@ -23,6 +31,10 @@
     opacity: 1!important;
     height: auto;
     padding-bottom: 10px;
+}
+
+.swiper-pagination {
+    font-size: 0;
 }
 
 
@@ -61,6 +73,10 @@
     top: 30px;
 }
 
+.review__pag {
+    bottom: 20px!important;
+}
+
 .review__pag .swiper-pagination-bullet {
     background: #000000;
     margin: 0 2px!important;
@@ -79,4 +95,33 @@
 .review__next:after,
 .review__prev:after {
     font-size: 10px;
+}
+
+
+/* kinds gallery */
+
+.gallery__pag .swiper-pagination-bullet {
+    background: none;
+    border: 1px solid #FFFFFF;
+    margin: 0 2px!important;
+    width: 7px;
+    height: 7px;
+}
+
+.gallery__pag .swiper-pagination-bullet-active {
+    background: #FFFFFF;
+}
+
+.gallery__prev,
+.gallery__next {
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    top: calc(50% + 20px);
+}
+
+.gallery__next:after,
+.gallery__prev:after {
+    font-size: 10px;
+    color: rgba(53, 53, 53, 0.85);
 }
