@@ -733,6 +733,29 @@ input {
 }
 
 
+/* popup gallery */
+
+.popup.popup__gallery {
+    max-width: 850px;
+}
+
+.popup__gal-body {
+    padding: 50px 30px;
+    grid-template-columns: 100px auto 265px;
+}
+
+.kind__thumbs {
+    display: block;
+    height: 250px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.kind-popup__btn {
+    font-size: 15px;
+}
+
+
 /* not supports backdrop-filter  */
 
 @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {

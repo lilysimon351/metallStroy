@@ -979,6 +979,8 @@ input {
     margin: 0 15px;
     overflow: hidden;
     display: none;
+    max-height: 90%;
+    overflow-y: auto;
 }
 
 .popup-overlay .popup {
@@ -1141,6 +1143,31 @@ input {
     font-size: 14px;
 }
 
+.gallery__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.kind-popup__btn {
+    margin-top: 50px;
+}
+
+.kind-popup__btn p {
+    margin: 15px 0;
+}
+
+.kind-popup__btn,
+.kind__add-info,
+.popup__gallery .kind__btn {
+    display: none;
+}
+
+.popup__gallery .kind-popup__btn,
+.popup__gallery .kind__add-info {
+    display: block;
+}
+
 
 /* sep-form */
 
@@ -1228,6 +1255,48 @@ input {
 
 .step__subtitle {
     margin-bottom: 8px;
+}
+
+
+/* popup gallery */
+
+.popup.popup__gallery {
+    max-width: 525px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.popup__gal-body {
+    padding: 30px 20px;
+    background: var(--white);
+    display: grid;
+    grid-gap: 30px;
+}
+
+.kind__thumbs {
+    display: none;
+}
+
+.kind__thumbs .swiper-slide {
+    height: 70px!important;
+    margin-bottom: 15px;
+}
+
+.popup-gal__slider,
+.kind__thumbs .swiper-slide {
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+.popup__gallery .popup-gal__slider {
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
+    height: 285px;
+}
+
+.popup__gallery .kind__item-body {
+    padding: 0;
 }
 
 
