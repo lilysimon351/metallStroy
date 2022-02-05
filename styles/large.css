@@ -18,6 +18,7 @@
 
 .header .nav-wr {
     max-width: 1340px;
+    padding: 15px;
 }
 
 .nav {
@@ -69,6 +70,20 @@
     position: absolute;
     bottom: var(--gap);
     left: 100px;
+}
+
+
+/* kinds */
+
+.kind__img {
+    height: 298px;
+}
+
+
+/* works */
+
+.work__img {
+    height: 700px;
 }
 
 

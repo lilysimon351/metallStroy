@@ -61,6 +61,14 @@ body {
     line-height: 16px;
 }
 
+.form__submit {
+    margin-top: 40px;
+}
+
+.popup__body .form__agreement {
+    margin-top: 15px;
+}
+
 
 /* header */
 
@@ -69,7 +77,7 @@ body {
 }
 
 .nav-wr {
-    padding: 17px;
+    padding: 5px 15px;
 }
 
 .logo {
@@ -250,8 +258,12 @@ body {
 /* intro */
 
 .intro {
-    min-height: calc(100vh - 179px);
-    background-image: url(../pics/bg/intro.jpg);
+    padding: 180px 0 90px;
+}
+
+.intro__item::before {
+    width: 36px;
+    height: 39px;
 }
 
 h1,
@@ -334,12 +346,13 @@ h2,
 
 .adv {
     background-image: url(../pics/bg/adv.jpg);
+    padding-bottom: 30px;
 }
 
 .adv__item {
     max-width: 300px;
     width: 100%;
-    margin: 35px 0;
+    margin: 30px 0;
 }
 
 .adv__item::before {
@@ -499,6 +512,7 @@ h2,
     -ms-grid-columns: 1fr var(--gap) 1fr;
     grid-template-columns: 1fr 1fr;
     gap: var(--gap);
+    max-width: unset;
 }
 
 .about__desc {
@@ -506,9 +520,13 @@ h2,
 }
 
 .about__quot {
-    max-width: unset;
     margin: 0;
     font-weight: 500;
+}
+
+.about__quot,
+.about__desc {
+    max-width: 526px;
 }
 
 .quot::before,
@@ -521,13 +539,14 @@ h2,
 }
 
 .quot::after {
-    bottom: -45px;
+    bottom: -68px;
 }
 
 .about_adv__item {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
+    max-width: 450px;
 }
 
 .about_adv__item::before {
@@ -561,9 +580,9 @@ h2,
 
 .review__slider {
     width: 223px;
-    height: 465px;
+    height: 485px;
     left: calc(50% - 76px);
-    top: 52px;
+    top: 17px;
 }
 
 .review__prev,
@@ -578,17 +597,18 @@ h2,
     height: 10px;
 }
 
+.review__pag {
+    bottom: 45px!important;
+}
+
 .map__title {
     font-size: 32px;
     padding: 20px;
 }
 
 .map__tel {
-    bottom: 50px;
-    position: absolute;
-    z-index: 2;
-    max-width: 330px;
-    left: calc(50% - 330px/2);
+    border-radius: 10px;
+    font-weight: 500;
 }
 
 
@@ -599,9 +619,19 @@ input {
     padding: 15px 30px;
 }
 
+.feedback__form {
+    max-width: 570px;
+}
+
+.feedback__form .form__agreement {
+    font-size: 14px;
+    line-height: 16px;
+}
+
 .feedback__video {
     width: 530px;
     height: 355px;
+    max-width: unset;
 }
 
 .feedback__video_play {
@@ -620,7 +650,7 @@ input {
 }
 
 .popup__body {
-    padding: 55px 100px 60px 35px;
+    padding: 55px 100px 40px 35px;
 }
 
 .popup__close {
@@ -741,6 +771,7 @@ input {
 
 .popup__gal-body {
     padding: 50px 30px;
+    -ms-grid-columns: 100px auto 265px;
     grid-template-columns: 100px auto 265px;
 }
 

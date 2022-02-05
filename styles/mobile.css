@@ -43,18 +43,9 @@ h2 {
     line-height: 1.3;
 }
 
-.intro {
-    min-height: calc(100vh - 122px);
-}
-
 .intro__desc {
     font-size: 20px;
     line-height: 1.3;
-}
-
-.intro__item::before {
-    width: 50px;
-    height: 50px;
 }
 
 .intro__btn {
@@ -80,6 +71,16 @@ h2 {
     font-size: 18px;
 }
 
+.kind__item {
+    max-width: 315px;
+    width: 100%;
+}
+
+.kind__contact {
+    margin-top: 40px;
+    max-width: 370px;
+}
+
 
 /* works */
 
@@ -87,15 +88,23 @@ h2 {
     font-size: 19px;
 }
 
-.work__pag {
-    bottom: 90px!important;
-}
-
 
 /* about */
 
+.about {
+    padding-top: 20px;
+}
+
 .about__quot {
     max-width: 390px;
+}
+
+.about__top {
+    max-width: 465px;
+}
+
+.about_adv__list {
+    max-width: 420px;
 }
 
 .about__img {
@@ -111,6 +120,10 @@ h2 {
 
 /* reviews */
 
+.review {
+    padding-top: 20px;
+}
+
 .review__cover {
     max-width: 430px;
     margin: 0 auto -90px;
@@ -118,9 +131,9 @@ h2 {
 
 .review__slider {
     width: 165px;
-    height: 340px;
+    height: 360px;
     left: calc(50% - 56px);
-    top: 40px;
+    top: 12px;
 }
 
 
@@ -131,12 +144,22 @@ h2 {
     line-height: 1.3;
 }
 
+.map__tel {
+    max-width: 270px;
+    padding: 13px;
+    font-size: 20px;
+}
+
 
 /* feedback */
 
+.feedback__form {
+    max-width: 330px;
+}
+
+.feedback__form,
 .feedback__video {
-    width: 320px;
-    max-width: unset;
+    margin: 15px;
 }
 
 

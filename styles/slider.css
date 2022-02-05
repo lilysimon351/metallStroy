@@ -30,6 +30,9 @@
 .swiper-fade .swiper-slide-active {
     opacity: 1!important;
     height: auto;
+}
+
+.work__slider .swiper-fade .swiper-slide-active {
     padding-bottom: 10px;
 }
 
@@ -43,11 +46,11 @@
 .work__slider {
     margin-left: calc( 0px - var(--gap));
     margin-right: calc( 0px - var(--gap));
-    padding: 0 var(--gap);
+    padding: 0 var(--gap) 10px;
 }
 
 .work__pag {
-    bottom: 70px!important;
+    bottom: 75px!important;
 }
 
 .work__prev,
@@ -67,10 +70,15 @@
 
 .review__slider {
     width: 123px;
-    height: 250px;
+    height: 268px;
     position: absolute;
     left: calc(50% - 42px);
-    top: 30px;
+    top: 8px;
+    border-radius: 11px;
+}
+
+.review__item img {
+    height: 100%;
 }
 
 .review__pag {

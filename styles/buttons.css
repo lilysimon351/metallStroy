@@ -22,11 +22,11 @@
 }
 
 .btn--norm {
-    max-width: 370px;
+    max-width: 270px;
     border-radius: 5px;
     background: rgba(238, 0, 0, 0.9);
     color: var(--white);
-    padding: 10px;
+    padding: 15px;
 }
 
 .btn--small {
@@ -58,14 +58,14 @@
 .btn--red {
     width: unset;
     background: var(--red);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px 20px;
 }
 
 .grad-btn {
-    padding: 20px 30px;
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(186, 27, 17, 0.8)), to(rgba(216, 19, 0, 0.8)));
+    padding: 16px 30px;
     background: -o-linear-gradient(bottom, rgba(186, 27, 17, 0.8) 0%, rgba(216, 19, 0, 0.8) 100%);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(186, 27, 17, 0.8)), to(rgba(216, 19, 0, 0.8)));
     background: linear-gradient(0deg, rgba(186, 27, 17, 0.8) 0%, rgba(216, 19, 0, 0.8) 100%);
     -webkit-box-shadow: 0px 5px 10px rgba(var(--black), 0.1), inset 0px 5px 10px rgba(var(--red), 0.05);
     box-shadow: 0px 5px 10px rgba(var(--black), 0.1), inset 0px 5px 10px rgba(var(--red), 0.05);
@@ -82,7 +82,7 @@
 
 .grad-btn--grey {
     background: rgba(255, 255, 255, 0.2);
-    padding: 15px 20px;
+    padding: 10px 20px;
 }
 
 .btn:hover,
