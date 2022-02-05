@@ -182,6 +182,10 @@ input {
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
+.mont {
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 /* header */
 
